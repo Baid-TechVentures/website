@@ -1,0 +1,56 @@
+/* Baid TechVentures design system tokens
+   Source: Claude Design project, _ds/baid-techventures-design-system-d239e8e9…/tokens */
+
+:root {
+  /* Navy — foundation */
+  --navy-900: #131C3D;
+  --navy-800: #1B2551;
+  --navy-700: #233066; /* brand primary */
+  --navy-500: #3D4C8A;
+  --navy-300: #97A1C8;
+  --navy-100: #E0E4F1;
+  --navy-50:  #F1F3F9;
+
+  /* Gold — the wing */
+  --gold-700: #97701C;
+  --gold-600: #B08424;
+  --gold-500: #C6952C; /* accent primary */
+  --gold-300: #E2C382;
+  --gold-100: #F4EAD2;
+
+  /* Warm neutrals */
+  --ivory:    #FBFAF6; /* page */
+  --paper:    #FFFFFF;
+  --stone-200:#E9E7DF; /* hairlines on ivory */
+  --gray-200: #E4E5EB;
+  --gray-400: #9DA1B0;
+  --gray-600: #5D6274;
+
+  /* Aliases */
+  --brand:        var(--navy-700);
+  --accent:       var(--gold-500);
+  --surface-page: var(--ivory);
+  --surface-card: var(--paper);
+  --surface-inverse: var(--navy-800);
+  --text-heading: var(--navy-800);
+  --text-body:    #3A4157;
+  --text-muted:   #7B8095;
+  --text-on-inverse: #F4F3EE;
+  --text-muted-on-inverse: #A9B0CC;
+  --line:         var(--stone-200);
+  --line-strong:  #D4D2C8;
+  --focus-ring:   rgba(198, 149, 44, 0.45);
+
+  /* Type */
+  --font-display: 'Playfair Display', 'Georgia', serif;
+  --font-sans: 'Jost', 'Avenir Next', 'Century Gothic', sans-serif;
+  --tracking-caps: 0.22em;
+  --tracking-nav: 0.18em;
+
+  /* Geometry & effects */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --shadow-card: 0 1px 2px rgba(19, 28, 61, 0.05), 0 10px 28px rgba(19, 28, 61, 0.07);
+  --shadow-pop: 0 2px 6px rgba(19, 28, 61, 0.08), 0 24px 56px rgba(19, 28, 61, 0.16);
+  --ease-reveal: cubic-bezier(.2, .6, .2, 1);
+}
